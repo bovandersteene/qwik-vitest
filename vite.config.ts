@@ -16,8 +16,7 @@ export default defineConfig(() => {
         "Cache-Control": "public, max-age=600",
       },
     },
-    test: {environment:'node',
-    setupFiles: ['./vitest-setup.ts'], },
+    test: {environment:'node'},
   };
 });
  
